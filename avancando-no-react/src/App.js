@@ -1,8 +1,3 @@
-// componentes
-import FirstComponents from './Components/FristComponents';
-
-
-// styles /css
 import logo from './logo.svg';
 import './App.css';
 
@@ -11,17 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       <h3>AGORA SIM CARALHO</h3>  
-       <h2>VAMO TRAMAR COM ISSO</h2> 
-       <h1>FAZER MUITA GRANA</h1> 
-        <FirstComponents />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Leia minha rola
+          Learn React
         </a>
       </header>
     </div>
